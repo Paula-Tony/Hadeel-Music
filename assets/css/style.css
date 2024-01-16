@@ -307,7 +307,7 @@ ul {
 }
 
 .port_sidebar_wrapper .port_sidebar_profile {
-  padding: 20px 0;
+  padding: 20px 0 0;
 }
 .port_sidebar_wrapper a.port_sidebar_position {
   position: relative;
@@ -330,7 +330,7 @@ ul {
 .port_sidebar_nav {
   padding: 7px 0px 0px 0px;
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 .port_navigation .nav_list {
   margin: 0;
