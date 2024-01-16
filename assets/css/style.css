@@ -614,6 +614,12 @@ ul {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
 }
+@media (max-width: 767px) {
+  .port__social_box .port__followus {
+    display: none;
+  }
+}
+
 .port__social_box p:after {
   content: "";
   position: absolute;
@@ -1039,6 +1045,15 @@ p.banner_pera:after {
 .selfintro_section .right_section p.about_deatils_2 {
   color: rgb(255, 81, 126);
   margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+  .selfintro_section .right_section p.about_deatils {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .selfintro_section .right_section p.about_deatils_2 {
+    text-align: center;
+  }
 }
 .signature_box {
   display: flex;
@@ -2649,7 +2664,7 @@ rt_testimonial_setions .port_testi_quote svg {
     padding: 40px 0px 0px;
   }
   .personal_details h1.ps_name {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .personal_details p.ps_designation {
@@ -2721,9 +2736,7 @@ rt_testimonial_setions .port_testi_quote svg {
   .right_section q.about_tophead {
     font-size: 26px;
   }
-  .personal_details h1.ps_name {
-    display: none;
-  }
+
   .personal_details p.ps_designation {
     display: none;
   }
