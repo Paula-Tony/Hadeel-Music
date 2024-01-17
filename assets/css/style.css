@@ -1362,15 +1362,25 @@ span.value a {
   font-size: 20px;
   padding: 10px 0;
 }
+.prt_rightside_title .right_title .arabic-txt {
+  margin-left: 5px;
+  display: block;
+}
 @media (max-width: 600px) {
-  .prt_rightside_title .right_title h4 .arabic-txt {
+  .prt_rightside_title .right_title .en-txt {
     display: none;
   }
 }
 
-.prt_rightside_title .right_title h4 span {
+.prt_rightside_title .right_title span {
   font-family: "Noto Sans Arabic", sans-serif;
   font-weight: 500;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 20px;
+  padding: 10px 0;
 }
 .education_firsrtbox .left_title_box:before {
   left: -20px;
@@ -1395,6 +1405,11 @@ span.value a {
   margin: 25px 0 10px;
   font-size: 20px;
   text-align: center;
+}
+.education_minfo .card-heading .video {
+  font-size: 40px;
+  text-align: center;
+  display: block;
 }
 @media (max-width: 767px) {
   .education_minfo .card-heading {
@@ -2336,7 +2351,7 @@ rt_testimonial_setions .port_testi_quote svg {
   }
 
   .education_mright .education_rinfo {
-    padding: 20px 20px 20px 20px;
+    padding: 20px 20px 0 20px;
   }
   .banner_rcontent svg.move_bg {
     width: 100%;
@@ -2427,7 +2442,7 @@ rt_testimonial_setions .port_testi_quote svg {
     display: block;
   }
   .col-lg-6.col-md-4.col-sm-12.col-12.align-self-center.newyork-responsive-screennone {
-    display: none;
+    order: -1;
   }
   .education_right .prt_rightside_title {
     left: 0;
