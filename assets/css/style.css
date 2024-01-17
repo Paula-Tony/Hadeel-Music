@@ -1326,6 +1326,13 @@ span.value a {
   -webkit-box-shadow: -10px 2px 9px 0px rgba(0, 0, 0, 0.09);
   -moz-box-shadow: -10px 2px 9px 0px rgba(0, 0, 0, 0.09);
 }
+@media (max-width: 767px) {
+  .education_right .prt_rightside_title {
+    box-shadow: 10px 2px 9px 0px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 10px 2px 9px 0px rgba(0, 0, 0, 0.09)-10px 2px 9px 0px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 10px 2px 9px 0px rgba(0, 0, 0, 0.09);
+  }
+}
 .prt_rightside_title {
   text-align: center;
   background: #fff;
@@ -1438,6 +1445,26 @@ span.value a {
 .education_minfo .card-heading__3 {
   margin: 0;
 }
+.education_minfo .card-heading__4 {
+  margin: 20px 0 0;
+  line-height: 1.7;
+}
+.education_minfo .excerpt {
+  margin: 20px 0 0;
+  line-height: 1.7;
+  color: #777777;
+  text-align: justify;
+}
+.education_minfo .full-content {
+  line-height: 1.7;
+  color: #777777;
+  display: none;
+}
+.education_minfo .read-more {
+  background: transparent;
+  border: none;
+  color: #00c8da;
+}
 .education_minfo video {
   display: block;
   width: 100%;
@@ -1513,6 +1540,12 @@ span.value a {
   right: -10%;
   box-shadow: 10px 2px 9px 0px rgba(0, 0, 0, 0.09);
 }
+@media (max-width: 767px) {
+  .education_left .prt_rightside_title {
+    right: 0;
+    box-shadow: 1px 5px 16px 0px rgba(0, 0, 0, 0.09);
+  }
+}
 .education_secondbox .left_title_box:before {
   right: -20px;
   border-left: 11px solid #ffffff;
@@ -1520,7 +1553,11 @@ span.value a {
   border-top: 8px solid #ffbf0b00;
   border-bottom: 7px solid #f70d0d00;
 }
-
+@media (max-width: 767px) {
+  .education_secondbox .left_title_box:before {
+    display: none;
+  }
+}
 .education_mright.education_left {
   float: right;
   margin-right: 38px;
@@ -2446,7 +2483,6 @@ rt_testimonial_setions .port_testi_quote svg {
   }
   .education_right .prt_rightside_title {
     left: 0;
-
     right: 0;
     text-align: center;
     width: 100%;
@@ -2616,15 +2652,17 @@ rt_testimonial_setions .port_testi_quote svg {
     margin-top: 15px;
   }
 }
+@media (max-width: 767px) {
+  .education_mright .left_title_box:before {
+    display: none;
+  }
+}
 @media (max-width: 575px) {
   .portfolio_btn {
     min-width: 130px;
     height: 45px;
     line-height: 47px;
     font-size: 15px;
-  }
-  .education_mright .left_title_box:before {
-    display: none;
   }
   .education_secondbox .left_title_box:before {
     display: none;
@@ -2760,12 +2798,6 @@ rt_testimonial_setions .port_testi_quote svg {
   }
   .selfintro_section .left_deatils {
     padding: 15px 15px;
-  }
-  .education_mright.education_right {
-    margin-left: 20px;
-  }
-  .education_mright.education_left {
-    margin-right: 20px;
   }
   .education_main_wrapper .education_box {
     margin-bottom: 50px;
